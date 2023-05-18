@@ -1,0 +1,143 @@
+.jobDetailsRouteContainer {
+  background-color: #000000;
+  padding: 18px;
+}
+.listItemContainer2 {
+  list-style-type: none;
+  background-color: #272727;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+.descriptionVisitContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleText2 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .listItemContainer2 {
+    width: 93%;
+    margin-left: 36px;
+  }
+}
+.linkContainer {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #b6c5ff;
+  text-decoration: none;
+}
+.linkIcon {
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .descriptionText {
+    font-size: 17px;
+  }
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 29px;
+}
+
+.skillItemContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  width: 100px;
+}
+.skillImage {
+  width: 30px;
+}
+
+.skillName {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #ffffff;
+  padding-left: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .skillItemContainer {
+    margin-right: 60px;
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  .titleText2 {
+    font-size: 19px;
+  }
+}
+
+.lifeAtCompanyContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.lifeAtCompanyImage {
+  width: 100%;
+  border-radius: 8px;
+}
+.descriptionText2 {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .lifeAtCompanyContainer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .descriptionText2 {
+    width: 600px;
+    font-size: 18px;
+  }
+  .lifeAtCompanyImage {
+    width: 300px;
+    height: 220px;
+  }
+}
+
+.similarJobText {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .similarJobText {
+    padding-left: 35px;
+  }
+}
+.similarJobListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.loader-container-job-details {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.jobDetailsFailureContainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column++;
+  align-items: center;
+}

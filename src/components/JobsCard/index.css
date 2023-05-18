@@ -1,0 +1,79 @@
+.listItemContainer {
+  list-style-type: none;
+  background-color: #272727;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.companyLogoContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 19px;
+}
+.companyLogo {
+  width: 44px;
+}
+.titleRatingContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+.titleText {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+.ratingText {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 4px;
+}
+.locationDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.locationContainer {
+  display: flex;
+  align-items: center;
+}
+.locationText {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 4px;
+  padding-right: 7px;
+}
+.locationAndTypeContainer {
+  display: flex;
+  align-items: center;
+}
+.packageText {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+}
+.descriptionText {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .listItemContainer {
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+}

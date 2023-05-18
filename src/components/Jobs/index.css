@@ -1,0 +1,159 @@
+.jobsContainer {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.jobsFullContainer {
+  padding: 20px;
+}
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.searchInputEl {
+  background-color: transparent;
+  outline: none;
+  margin-top: 8px;
+  width: 260px;
+  padding-left: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  border-color: #b6c5ff;
+  border-width: 1px;
+  border-style: solid;
+
+  color: #f8fafc;
+  margin-bottom: 18px;
+  border-right-width: 0px;
+  border-right-style: none;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 15px;
+}
+.searchButton {
+  background-color: #272727;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  border-width: 1px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+  border-color: #b6c5ff;
+  border-style: solid;
+
+  border-left-width: 0px;
+}
+.hrLine {
+  margin-top: 15px;
+  border-top: 1px solid #b6c5ff;
+}
+.typeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.typeHeadingText {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f1f5f9;
+  font-weight: 500;
+}
+.checkboxLabelText {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f1f5f9;
+  padding-left: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.salaryContainer {
+  display: flex;
+  flex-direction: column;
+}
+.checkboxContainer {
+  margin: 5px;
+}
+.radioContainer {
+  margin: 5px;
+}
+.jobsListContainer {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.jobsFailureContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+}
+.errorText {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.errorPara {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f1f5f9;
+  text-align: center;
+}
+.failureImage {
+  width: 280px;
+}
+.noJobsContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 57vh;
+}
+.noJobsImage {
+  width: 250px;
+}
+.job-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+@media screen and (min-width: 768px) {
+  .jobsFullContainer {
+    display: flex;
+    margin-right: 21px;
+  }
+  .job-loader-container {
+    height: 100vh;
+    width: 1000px;
+  }
+  .jobsFailureContainer {
+    height: 100vh;
+    width: 1000px;
+  }
+  .noJobsContainer {
+    width: 1000px;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .noJobsImage {
+    width: 400px;
+  }
+  .errorText {
+    font-size: 23px;
+  }
+  .errorPara {
+    font-size: 20px;
+  }
+  .failureImage {
+    width: 400px;
+  }
+}

@@ -1,0 +1,15 @@
+.listItemContainer3 {
+  list-style-type: none;
+  background-color: #272727;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 23px;
+}
+@media screen and (min-width: 768px) {
+  .listItemContainer3 {
+    width: 310px;
+    margin-left: 26px;
+    height: 380px;
+  }
+}

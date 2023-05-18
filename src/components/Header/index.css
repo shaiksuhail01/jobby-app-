@@ -1,0 +1,78 @@
+.navContainer {
+  background-color: #272727;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navLogoImage {
+  width: 80px;
+}
+.navMobileBg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navMenuList {
+  padding-left: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+.navItem {
+  list-style-type: none;
+  margin-right: 18px;
+}
+.navLink {
+  text-decoration: none;
+}
+.navItemLogout {
+  list-style-type: none;
+  margin-right: 6px;
+}
+.logoutButton {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+}
+.navLargeContainer {
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .navLargeContainer {
+    display: flex;
+  }
+  .navContainer {
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  .navLogoImage {
+    width: 110px;
+  }
+  .navLink {
+    font-family: 'Roboto';
+    color: #ffffff;
+  }
+  .logoutButtonEl {
+    font-family: 'Roboto';
+    color: #ffffff;
+    background-color: #6366f1;
+    cursor: pointer;
+    outline: none;
+    border-width: 0px;
+    border-radius: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 8px;
+  }
+  .navMobileBg {
+    display: none;
+  }
+}

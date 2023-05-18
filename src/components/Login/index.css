@@ -62,12 +62,12 @@
   margin-top: 10px;
   cursor: pointer;
 }
-.errorText {
+.errorTexts {
   font-family: 'Roboto';
   color: #ff0b37;
   font-size: 14px;
   margin: 0px;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 @media screen and (min-width: 768px) {
   .formBgContainer {
